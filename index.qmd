@@ -9,13 +9,10 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: instagram
-      text: Instagram
-      href: https://instagram.com
+      href: www.linkedin.com/in/dominic-rodriguez-donohue-06aa69199
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/domrod2020
     - icon: file-earmark-pdf
       text: Resumé
       href: https://GITHUB_USERNAME.github.io/resume-example.pdf
@@ -31,11 +28,11 @@ Dominic Rodriguez-Donohue majors in Business Administration at SUNY Geneseo. Whe
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Business Administration 
+B.S. in Business Administration | Aug 2022 - May 2026 <br>
+Minor in Data Analytics 
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+SUNY Geneseo School of Business | Data Analytics Tutor | September 2023 - Present
 
 
