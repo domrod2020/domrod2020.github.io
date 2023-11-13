@@ -9,7 +9,7 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: www.linkedin.com/in/dominic-rodriguez-donohue-06aa69199
+      href: https://www.linkedin.com/in/dominic-rodriguez-donohue-06aa69199/
     - icon: github
       text: GitHub
       href: https://github.com/domrod2020
