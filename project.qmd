@@ -1,0 +1,92 @@
+---
+title: DANL Project
+subtitle: "Data-Driven Mastery: Unlocking Business Potential"
+author: 
+  - Name 1
+  - Name 2
+  - Name 3
+  - Name 4
+  - Name 5
+
+toc: true
+toc-title: "Table of Contents"
+toc-depth: 2
+number-sections: true
+
+fig-width: 9
+
+execute:
+  code-tools: true
+  message: false
+  warning: false
+
+from: markdown+emoji
+---
+```{r setup}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.33),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.33),
+                               margin = margin(0,10,0,0))
+                )
+          )
+```
+
+
+
+# Introduction
+
+About this project :clap:
+
+```{r}
+1 + 1
+```
+
+
+# Data
+
+The data.frame `mpg` contains a subset of the fuel economy data that the EPA makes available on [https://fueleconomy.gov/](https://fueleconomy.gov/). It contains only models which had a new release every year between 1999 and 2008 - this was used as a proxy for the popularity of the car. :oncoming_automobile:
+
+
+## Summary Statistics
+
+```{r}
+mpg <- ggplot2::mpg
+```
+
+```{r}
+#| results: asis
+#| echo: false
+rmarkdown::paged_table(mpg) 
+```
+
+
+```{r}
+skim(mpg) %>% 
+  select(-n_missing)
+```
+
+
+## MPG and a Type of Cars
+The following boxplot shows how the distribution of highway MPG (`hwy`) varies by a type of cars (`class`) :blue_car: :truck: :minibus:.
+
+
+```{r}
+ggplot(data = mpg) +
+  geom_boxplot(aes(x = class, y = hwy, fill = class),
+               show.legend = F) +
+  labs(x = "Class", y = "Highway\nMPG") 
+```
+
+

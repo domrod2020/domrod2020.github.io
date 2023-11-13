@@ -1,0 +1,15 @@
+---
+title: "Insightful Analytics<br><br>"
+listing:
+  contents: posts
+  type: default
+  sort:
+    - "date desc"
+    - "title desc"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, date, title, author, reading-time]
+
+page-layout: full
+---
