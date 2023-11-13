@@ -1,5 +1,5 @@
 ---
-title: "Dominic"
+title: "Dominic Rodriguez-Donohue"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
   image: img/profile.png
@@ -21,12 +21,12 @@ about:
       href: https://GITHUB_USERNAME.github.io/resume-example.pdf
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:der7@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Dominic Rodriguez-Donohue majors in Business Administration at SUNY Geneseo. When not working on data analytics, Dominic enjoys spending time golfing.
 
 ## Education
 
