@@ -15,7 +15,7 @@ about:
       href: https://github.com/domrod2020
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: Rodriguez-Donohue_Resume_NOV2.pdf
     - icon: mailbox
       text: Email
       href: mailto:der7@geneseo.edu
