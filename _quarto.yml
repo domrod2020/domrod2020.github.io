@@ -4,12 +4,12 @@ project:
 
 website:
   title: "Dominic Rodriguez-Donohue"
-  navbar:
+  navbar: 
     pinned: true
     left:
-      - text: Project
+      - text: project
         href: project.qmd
-      - text: Blog
+      - text: blog
         href: blog-listing.qmd
   page-footer: 
     center: "Powered with GitHub and Quarto<br>© Dominic Rodriguez-Donohue, 2023"
