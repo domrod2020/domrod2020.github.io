@@ -3,7 +3,7 @@ project:
   output-dir: "."
 
 website:
-  title: "YOUR NAME"
+  title: "Dominic Rodriguez-Donohue"
   navbar:
     pinned: true
     left:
@@ -12,7 +12,7 @@ website:
       - text: Blog
         href: blog-listing.qmd
   page-footer: 
-    center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2023"
+    center: "Powered with GitHub and Quarto<br>© Dominic Rodriguez-Donohue, 2023"
 
 format:
   html:
